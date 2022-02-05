@@ -13,6 +13,8 @@
 		B61F245C27AE75D4006B08C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61F245A27AE75D4006B08C4 /* Main.storyboard */; };
 		B61F245E27AE75D5006B08C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61F245D27AE75D5006B08C4 /* Assets.xcassets */; };
 		B61F246127AE75D5006B08C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61F245F27AE75D5006B08C4 /* LaunchScreen.storyboard */; };
+		B61F246927AE7B3B006B08C4 /* APIConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F246827AE7B3B006B08C4 /* APIConnect.swift */; };
+		B61F246B27AE8E3B006B08C4 /* TableViewControllerbyNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F246A27AE8E3B006B08C4 /* TableViewControllerbyNews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B61F245D27AE75D5006B08C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B61F246027AE75D5006B08C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B61F246227AE75D5006B08C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61F246827AE7B3B006B08C4 /* APIConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnect.swift; sourceTree = "<group>"; };
+		B61F246A27AE8E3B006B08C4 /* TableViewControllerbyNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerbyNews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B61F245D27AE75D5006B08C4 /* Assets.xcassets */,
 				B61F245F27AE75D5006B08C4 /* LaunchScreen.storyboard */,
 				B61F246227AE75D5006B08C4 /* Info.plist */,
+				B61F246827AE7B3B006B08C4 /* APIConnect.swift */,
+				B61F246A27AE8E3B006B08C4 /* TableViewControllerbyNews.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				B61F245927AE75D4006B08C4 /* ViewController.swift in Sources */,
 				B61F245527AE75D4006B08C4 /* AppDelegate.swift in Sources */,
 				B61F245727AE75D4006B08C4 /* SceneDelegate.swift in Sources */,
+				B61F246B27AE8E3B006B08C4 /* TableViewControllerbyNews.swift in Sources */,
+				B61F246927AE7B3B006B08C4 /* APIConnect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
