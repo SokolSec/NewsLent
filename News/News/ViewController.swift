@@ -33,7 +33,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.addSubview(refhrea)
-        title = "News by SOKOL D.S."
+        title = "Новостная лента"
         view.addSubview(tableView)
         tableView.delegate = self
         tableView.dataSource = self
