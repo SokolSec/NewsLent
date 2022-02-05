@@ -11,7 +11,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "News from Sokol"
+        view.backgroundColor = .systemBackground
     }
 
 
