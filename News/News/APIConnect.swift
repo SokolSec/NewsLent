@@ -10,7 +10,8 @@ import Foundation
 class APIConnect {
     static let linkAPI = APIConnect()
     struct Constants {
-        static let headLineTopURL = URL(string: "https://newsapi.org/v2/everything?q=tesla&from=2022-01-05&sortBy=publishedAt&apiKey=ddd336376b654441925c4acc8524dcbb")
+        static let headLineTopURL = URL(string: "https://newsapi.org/v2/top-headlines?country=ru&category=business&apiKey=ddd336376b654441925c4acc8524dcbb
+    ]\")
     }
     
     private init() {}
